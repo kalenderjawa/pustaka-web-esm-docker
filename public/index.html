@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Modul ES6 | Kalender Jawa</title>
+</head>
+
+<body>
+    <h1>Modul ES6, Kalender Jawa</h1>
+    <p><code>Open console and play with <a href="https://kalenderjawa.dev/api">Pustaka Kalender Jawa</a></code></p>
+    <script type="module">
+        import * as KalenderJawa from 'https://unpkg.com/@kalenderjawa/pustaka@1.0.0-beta.8.esm.0/lib/kalenderjawa.min.mjs'
+
+        globalThis.KalenderJawa = KalenderJawa
+
+        /**
+        KalenderJawa.sasi('mukarom', 1999).then(({ k, s }) => {
+          console.log(s.get(k))
+        })
+        */
+    </script>
+</body>
+
+</html>
