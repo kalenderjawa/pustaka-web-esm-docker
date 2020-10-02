@@ -6,8 +6,10 @@ Contoh pemakaian Pustaka Kalender Jawa versi Modul ES6 di web modern.
 Clone dan jalankan perintah berikut untuk membangun image
 
 ```
-docker build -t mydock .
+docker build -t junwatu/kalenderjawa-esm .
 ```
+
+untuk nama tag `-t` sesuaikan saja dengan kebutuhanmu. 
 
 
 ## Docker Hub
