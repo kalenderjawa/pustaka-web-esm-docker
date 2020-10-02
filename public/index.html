@@ -7,10 +7,32 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Modul ES6 | Kalender Jawa</title>
 </head>
+<style>
+    code {
+        background-color: cornsilk;
+        /* margin: 1em; */
+        padding: 1em 1em;
+    }
+
+    p {
+        margin: 1.2em 0em;
+    }
+
+    .doc {
+        max-width: 428px;
+    }
+</style>
 
 <body>
-    <h1>Modul ES6, Kalender Jawa</h1>
-    <p><code>Open console and play with <a href="https://kalenderjawa.dev/api">Pustaka Kalender Jawa</a></code></p>
+    <div class="doc">
+        <h1>Modul ES6, Kalender Jawa</h1>
+        <p>Buka console dan bermain dengan API <a href="https://kalenderjawa.dev/api">Pustaka Kalender Jawa</a></p>
+        <p>Misalnya tulis kode berikut ke console browser</p>
+        <code>KalenderJawa.araningPasaran</code>
+        <p>atau ketik var global <strong>KalenderJawa</strong> pada console browser dan fitur <i>autocompletion</i> akan
+            memberikan anda petunjuk dari semua properti ataupun metode dari pustaka.</p>
+        <img src="console-kj.png" width="100%" />
+    </div>
     <script type="module">
         import * as KalenderJawa from 'https://unpkg.com/@kalenderjawa/pustaka@1.0.0-beta.10/lib/kalenderjawa.min.mjs'
 
