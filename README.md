@@ -32,4 +32,4 @@ Kemudian buka browser dan akses aplikasi dengan url
 
 ---
 
-2019 © https://kalenderjawa.dev
+2020 © https://kalenderjawa.dev
